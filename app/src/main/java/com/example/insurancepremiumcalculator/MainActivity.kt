@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
             }
             var total = premium +extraMale +extraSmoker;
-
+//
             premiumModel.premium = total.toString().toDouble()
             txtTotal.text = "RM"+ premiumModel.premium
         }
